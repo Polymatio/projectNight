@@ -1,0 +1,25 @@
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    color: rgb(63, 63, 191);
+    font: 600 5rem Georgia, 'Times New Roman', Times, serif, Arial, serif;
+    color: rgb(59, 19, 180);
+    padding: 1.5%;
+    text-align: center;
+    width: 25rem; 
+    margin: 2% 40% 2% 40%;
+    border: solid;
+    border-width: 5px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(60deg,#b16ec4, #5f97b9)
+}
+.completed{
+    text-decoration: line-through;
+    color: navy;
+}
+.not{
+    font-weight: 500;
+    color: #845592;
+}
